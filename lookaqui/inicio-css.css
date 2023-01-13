@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+
+html, body{
+	width: 100%;
+}
+
+
+.nome{
+	font-size: 40px;
+	margin: 10px;
+	color: white;
+}
+.container{
+	height: 100vn;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0;
+}
+.hero{
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+	border-radius: 50px;
+}
+.header{
+	display: flex;
+	align-items: center;
+	background-color: lightgreen;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 20px;
+}
+.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 85%;
+	align-items: center;
+	padding: 35px;
+	margin: 10px;
+}
+.menu-left{
+	display: flex;
+	font-size: 15px;
+}
+.menu ul{
+	display: flex;
+	list-style: none;
+	align-items: center;
+}
+.menu ul li{
+	padding-right: 25px;
+}
+.menu .menu-left ul li a{
+	text-decoration: none;
+	color: black;
+}
+.todos{
+	padding: 0 4%;
+	height: 100%;
+}
+.todos span{
+	color: darkslategray;
+	font-size: 15px;
+	line-height: 17px;
+	font-weight: 600;
+}
+.slider{
+	margin-top: 8px;
+	display: flex;
+	overflow: hidden;
+}
+.slider .filme{
+	min-width: 25px;
+}
+.slider .filme img{
+	max-width: 100%;
+	padding-right: 5px;
+}
+img{
+	width: 190px;
+	height: 279px;
+}
+.footer-inicio{
+	padding: 20px;
+	background-color: lightgreen;
+	border-radius: 20px;
+}
+.footer-inicio .duvidas{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.footer-inicio .duvidas .meios{
+	display: flex;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.duvidas .meios ul{
+	list-style: none;
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.duvidas .meios ul li{
+	width: 25%;
+	padding: 10px 0;
+}
+.duvidas .meios ul li a{
+	color: white;
+	text-decoration: none;
+}

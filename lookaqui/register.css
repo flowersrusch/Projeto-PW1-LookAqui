@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+html, body{
+	width: 100%;
+}
+.nome{
+	font-size: 40px;
+	margin: 10px;
+	color: white;
+}
+.container{
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 2%;
+
+}
+body{
+	background-color:  lightgreen;
+}
+nav .nome{
+	width: 100%;
+}
+main{
+	background-color: white;
+	max-width: 450px;
+	margin: 0 auto 80px;
+	padding: 50px;
+	color: #36bd4d;
+}
+main form h1{
+	margin: 10px 0 20px 0;
+	font-size: 40px;
+}
+main form .entrar > input{
+	width: 96%;
+	outline: none;
+	border: none;
+	height: 45px;
+	background-color: lightgreen;
+	margin-bottom: 15px;
+	padding: 10px;
+	border-radius: 3px;
+	font-size: 16px;
+	color: black;
+}
+.btn1{
+	width: 100%;
+	outline: none;
+	border: none;
+	height: 45px;
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 3px;
+	font-size: 16px;
+	background-color: lightgreen;
+	font-weight: bold;
+	cursor: pointer;
+	color: white;
+}
+.dividir{
+	background-color: white;
+	width: 100%;
+	height: 4px;
+	display: none;
+}
+.footer-login{
+	padding: 20px;
+	background-color: white;
+}
+.footer-login .duvidas{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.footer-login .duvidas .meios{
+	display: flex;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.duvidas .meios ul{
+	list-style: none;
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.duvidas .meios ul li{
+	width: 25%;
+	padding: 10px 0;
+}
+.duvidas .meios ul li a{
+	color: gray;
+	text-decoration: none;
+}
